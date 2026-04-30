@@ -1,0 +1,24 @@
+{
+  "name": "generative-notebook",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Local-first, AI-native note-taking app with Generative UI",
+  "keywords": [
+    "note-taking",
+    "generative-ui",
+    "local-first",
+    "crdt",
+    "ai-native",
+    "tauri",
+    "tiptap"
+  ],
+  "license": "MIT",
+  "author": "lsrbuaa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lsrbuaa/generative-notebook.git"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

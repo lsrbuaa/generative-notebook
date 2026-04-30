@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(**)",
+      "Glob(**)",
+      "Grep(**)"
+    ]
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "Before responding, recall the Karpathy Guidelines: (1) Think Before Coding — surface assumptions, ask if unclear. (2) Simplicity First — minimum code, no speculative features. (3) Surgical Changes — only touch what the request requires. (4) Goal-Driven — define verifiable success criteria."
+          }
+        ]
+      }
+    ]
+  }
+}
